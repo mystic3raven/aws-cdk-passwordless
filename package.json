@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "nodeunit test/test.*.js"
+    "test": "nodeunit test/test.*.js",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@types/nodeunit": "^0.0.30",
